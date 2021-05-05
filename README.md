@@ -1,1 +1,1 @@
-# ibm-anagrams
+# anagrams
