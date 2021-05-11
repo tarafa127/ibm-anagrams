@@ -1,7 +1,7 @@
 #Hola
-servicies:
+services:
   anagrams:
-    image: tarafa127/ibm_anagrams:latest
+    image: chemagonzalez/ibm-anagrams:latest
     volumes:
-      - /tmp/ibm_anagrams/data:/data:ro
-  version: '3.8'
+      - /tmp/ibm-anagrams/data:/data:ro
+version: '3.8'
