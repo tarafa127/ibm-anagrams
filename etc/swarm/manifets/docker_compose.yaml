@@ -1,8 +1,9 @@
 #Hola
 services:
   anagrams:
-    replicas: 2
-    image: chemagonzalez/ibm-anagrams:latest
+    deploy:
+      replicas: 2
+    image: tarafa127/ibm-anagrams:latest
     volumes:
       - /tmp/ibm-anagrams/data:/data:ro
 version: '3.8'
