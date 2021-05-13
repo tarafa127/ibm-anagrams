@@ -3,7 +3,7 @@ services:
   anagrams:
     deploy:
       replicas: 2
-    image: anabruno/ibm-anagrams:latest
+    image: tarafa127/ibm-anagrams:latest
     volumes:
       - /tmp/ibm-anagrams/data:/data:ro
 version: '3.8'
